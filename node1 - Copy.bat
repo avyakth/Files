@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver=chromedriver.exe -Dwebdriver.ie.driver=IEDriverServer.exe -Dwebdriver.edge.driver=msedgedriver.exe -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.106:4444/grid/register -port 5555 -browser "browserName=chrome,maxInstances=20" -browser "browserName=internet explorer,maxInstances=5"
